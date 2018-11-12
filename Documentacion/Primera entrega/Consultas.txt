@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <h1>Para poder enviar su consulta o comentario complete los siguientes datos:</h1>
+    <form>
+
+            <div>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre de usuario" required required pattern="[A-Za-z].{1,30}">
+            </div>
+            <div>
+                <label for="Correo electrónico">Correo electronico</label>
+                <input type="email" id="correo-electrónico" name="Correo electrónico" required>
+            </div>
+            <div>
+              <label for="mensaje">Consulta o comentario</label>
+              <input type="textarea" id="mensaje-duda-o-consulta" name="mensaje" required>
+            </div>
+            <div>
+                <button type="sumbmit">
+                    Enviar</button>
+                <button type="button">Pagina anterior</button>
+                <button type="button">Pagina principal</button>
+            </div>
+          </form>
+</body>
+
+</html>

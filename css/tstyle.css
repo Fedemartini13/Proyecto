@@ -1,0 +1,36 @@
+html {
+  font-family: sans-serif;
+}
+body {
+  background-image: url("../imagenes/fondositio.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
+}
+
+table {
+  border: 0px solid rgb(200,200,200);
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
+
+td, th {
+  border: 0px solid;
+  padding: 10px 20px;
+}
+
+th {
+  background-color:black;
+}
+
+td {
+  text-align: center;
+}
+
+.otrasimagenes{
+  text-align: justify;
+}
+
+caption {
+  padding: 10px;
+}

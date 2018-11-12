@@ -1,0 +1,72 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/stylesindex.css">
+</head>
+
+
+<body>
+
+  <div id='cssmenu'>
+  <ul>
+     <li><a href='index.html'><span>Inicio</span></a></li>
+     <li class='active has-sub'><a href='#'><span>Tienda</span></a>
+        <ul>
+           <li class='has-sub'><a href='#'><span>Categorías</span></a>
+              <ul>
+
+                 <li class='has-sub'><a href='#'><span>Terror</span></a>
+                   <ul>
+                     <li><a href='residentevil.html'><span>Resident evil</span></a></li>
+                     <li><a href='untildawn.html'><span>Until dawn</span></a></li>
+                     <li><a href='#'><span>Juego-Terror-3</span></a></li>
+                   </ul>
+                 </li>
+
+                 <li class='has-sub'><a href='#'><span>Adventures</span></a>
+                   <ul>
+                     <li><a href='godofwar.html'><span>God of War</span></a></li>
+                   </ul>
+                 </li>
+
+
+                 <li class='has-sub'><a href='#'><span>Shooter</span></a>
+                   <ul>
+                     <li><a href='#'><span>Juego-Shooter-1</span></a></li>
+                     <li><a href='destiny2.html'><span>Destiny 2</span></a></li>
+                     <li><a href='#'><span>Juego-Shooter-3</span></a></li>
+                   </ul>
+                 </li>
+              </ul>
+           </li>
+        </ul>
+     </li>
+      <li class='active has-sub'><a href='#'><span>Mi cuenta</span></a>
+          <ul>
+              <li><a href='Login.html'><span>Iniciar sesión</span></a></li>
+              <li class='last'><a href='registro.html'><span>Registrarse</span></a></li>
+           </ul>
+      </li>
+
+     <li class='last'><a href='consultas.html'><span>Contacto</span></a></li>
+
+  </ul>
+  </div>
+<!--------------------------------------------->
+    <h4>Ingrese sus datos para entrar al sitio</h4>
+    <form>
+        <div>
+            <label for="nombre">Usuario</label><br>
+            <input type="text" id="nombre" name="nombre_usuario" required required pattern="[A-Za-z].{1,30}">
+        </div>
+        <div>
+            <label for="contraseña">Contraseña</label><br>
+            <input type="password" id="contraseña" name="contraseña" required required pattern="[A-Za-z0-9].{8,24}"><br><br>
+            <input type="submit" value="iniciar">
+        </div>
+    </form>
+    <a href="registro.html">Si aún no posee una cuenta haga click aqui para registrarse</a>
+    <body>
+
+</html>

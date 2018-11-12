@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang=''>
+<head>
+   <meta charset='utf-8'>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <script src="script.js"></script>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="css/stylesindex.css">
+
+
+<style>
+    body {
+      background-image: url("./imagenes/imagenfondo2.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      }
+      @font-face{  
+        font-family: "fuenteindex";
+      src:url(fonts/fuenteindex.ttf);
+      }
+      
+      h1{
+        font-family: "fuenteindex";
+        font-size:50px;
+        text-align: center;
+        letter-spacing:5px;
+        color: White;
+       
+      }
+
+      label{
+  display:none;
+  margin: 0 40px 0 0;
+  font-size:26px;
+  float:right;
+  cursor:pointer;
+}
+#toggle {
+  display:none;
+}
+
+
+  
+  @media screen and (max-width: 600px) {
+ 
+#cssmenu{
+  display: none;
+}
+ 
+#cssmenu ul li {
+      float: none;
+      display: block;
+    }
+
+         label{
+  display:block;
+  color:white;
+}
+
+
+#toggle:checked + #cssmenu{
+  display:block;
+ 
+  
+  
+}
+#cssmenu > ul > li > a{
+  background-color:rgba(0, 0, 0, 0.6)
+}
+}
+
+      
+</style>
+
+</head>
+<body>
+    <label for="toggle">&#9776;</label>
+    <input type="checkbox" id="toggle"/>
+
+<div id='cssmenu'>
+  
+<ul>
+   <li><a href='index.html'><span>Inicio</span></a></li>
+   <li id='menu_juegos' class='active has-sub'><a href='#'><span>Juegos</span></a>
+      <ul>
+
+               <li class='has-sub'><a href='#'><span>Terror</span></a>
+                 <ul>
+                   <li><a href='residentevil.html'><span>Resident evil</span></a></li>
+                   <li><a href='untildawn.html'><span>Until dawn</span></a></li>
+                   <li><a href='#'><span>Juego-Terror-3</span></a></li>
+                 </ul>
+               </li>
+
+               <li class='has-sub'><a href='#'><span>Adventures</span></a>
+                 <ul>
+                   <li><a href='godofwar.html'><span>God of War</span></a></li>
+                 </ul>
+               </li>
+
+
+               <li class='has-sub'><a href='#'><span>Shooter</span></a>
+                 <ul>
+                   <li><a href='#'><span>Juego-Shooter-1</span></a></li>
+                   <li><a href='destiny2.html'><span>Destiny 2</span></a></li>
+                   <li><a href='#'><span>Juego-Shooter-3</span></a></li>
+                 </ul>
+               </li>
+            </ul>
+         </li>
+
+
+    <li class='active has-sub'><a href='#'><span>Mi cuenta</span></a>
+        <ul>
+            <li><a href='Login.html'><span>Iniciar sesión</span></a></li>
+            <li class='last'><a href='registro.html'><span>Registrarse</span></a></li>
+         </ul>
+    </li>
+
+   <li class='last'><a href='consultas.html'><span>Contacto</span></a></li>
+
+</ul>
+</div>
+<h1>Juegos que encontrarás en esta página</h1>
+<div id="imagenes_juegos">
+  <a href="godofwar.html">
+  <img src="imagenes/imagen4.jpg" alt="imagen del juego god of war" id="imagen4">
+  </a>
+  <a href="residentevil.html">
+  <img src="imagenes/imagen5.jpg" alt="imagen del juego resident evil 5" id="imagen5">
+  </a>
+  <a href="destiny2.html">
+  <img src="imagenes/imagen7.jpg" alt="imagen del juego destiny 2" id="imagen6">
+</a>
+<a href= "untildawn.html">
+  <img src="imagenes/imagen6.jpg"alt="imagen del juego until dawn" id="imagen7">
+  </a>
+</div>
+</body>
+<html>

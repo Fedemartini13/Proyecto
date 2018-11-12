@@ -1,0 +1,3 @@
+Una de las dificultades que tuve fue con el menú en diseño layout, tengo la idea de hacerlo responsive pero para eso tengo que implementar javascript asi ese cambio se implementara para la tercera entrega
+Agregue al sitio 3 juegos mas, Destiny 2, Until dawn y Resident evil que son solo de ejemplo para mostrar un poco mas la idea, al igual que en la primera entrega sigo centrandome en el el juego inicial God of war. A las imagenes que se muestran en la pagina 
+godofwar.html las voy a colocar dentro de una galeria, y en el espacio que esta vacío iria un video mostrando el trailer del juego.

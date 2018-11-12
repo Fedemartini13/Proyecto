@@ -1,0 +1,2 @@
+Los archivos de texto "consultas" y "primer index" fueron las primeras ideas que tuve al comenzar a desarrollar el sitio, al final terminé implementando css a cada pagina para darle un poco de orden lo cual me facilito el trabajo a la hora de explicar como se navega en mi stito y en los diseños layout
+para celular y tablet
